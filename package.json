@@ -1,0 +1,16 @@
+{
+  "name": "datastructure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node Stack/converter.js --plugins @babel/plugin-transform-modules-commonjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0"
+  }
+}
