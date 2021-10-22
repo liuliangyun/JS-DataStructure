@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "babel-node Stack/converter.js --plugins @babel/plugin-transform-modules-commonjs"
+    "testStack": "babel-node Stack/index.js --plugins @babel/plugin-transform-modules-commonjs",
+    "testQueue": "babel-node Queue/index.js --plugins @babel/plugin-transform-modules-commonjs"
   },
   "author": "",
   "license": "ISC",
