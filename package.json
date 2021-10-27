@@ -6,7 +6,8 @@
   "scripts": {
     "testStack": "babel-node src/Stack/index.js --plugins @babel/plugin-transform-modules-commonjs",
     "testQueue": "babel-node src/Queue/index.js --plugins @babel/plugin-transform-modules-commonjs",
-    "testList": "babel-node src/List/index.js --plugins @babel/plugin-transform-modules-commonjs"
+    "testList": "babel-node src/List/index.js --plugins @babel/plugin-transform-modules-commonjs",
+    "testSet": "babel-node src/Set/index.js --plugins @babel/plugin-transform-modules-commonjs"
   },
   "author": "",
   "license": "ISC",
